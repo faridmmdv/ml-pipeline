@@ -129,9 +129,9 @@ for name, (preds, true_labels) in all_models.items():
 
 university_results = {}
 universities = {
-    'TU Chemnitz': (rgcn_tuc_preds,    rgcn_tuc_true,    rgcn_tuc_found),
-    'University of Girona': (rgcn_girona_preds, rgcn_girona_true, rgcn_girona_found),
-    'University of Udine':(rgcn_udine_preds,  rgcn_udine_true,  rgcn_udine_found),
+    'TU Chemnitz': (rgcn_tuc_preds, rgcn_tuc_true,rgcn_tuc_found),
+    'University of Girona': (rgcn_girona_preds,rgcn_girona_true,rgcn_girona_found),
+    'University of Udine':(rgcn_udine_preds, rgcn_udine_true, rgcn_udine_found),
 }
 
 for uni_name, (preds, true_labels, found) in universities.items():
